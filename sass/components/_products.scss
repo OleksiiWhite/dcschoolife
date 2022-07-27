@@ -11,7 +11,7 @@
   &__text {
     @extend %box-text;
 
-    font-family: "Titan One";
+    font-family: 'Titan One';
     font-weight: 400;
 
     text-align: center;
@@ -43,7 +43,7 @@
   &__title {
     @extend %box-text;
 
-    font-family: "Titan One";
+    font-family: 'Titan One';
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.04em;
@@ -83,7 +83,7 @@
   }
 
   &__text {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
 
     font-weight: 700;
 
@@ -111,7 +111,7 @@
   &__title-price {
     @extend %box-text;
 
-    font-family: "Titan One";
+    font-family: 'Titan One';
 
     font-weight: 400;
 
@@ -142,7 +142,7 @@
   &__item-price {
     @extend %list;
 
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
 
     font-weight: 700;
 
@@ -168,7 +168,7 @@
   &__text-price {
     @extend %box-text;
 
-    font-family: "Titan One";
+    font-family: 'Titan One';
 
     font-weight: 400;
 
@@ -302,7 +302,7 @@
   }
 
   &::before {
-    content: "";
+    content: '';
     background-size: cover;
     background-position: center;
     display: inline-blok;
@@ -330,34 +330,34 @@
   border-radius: 24px;
 
   &::before {
-    content: "";
+    content: '';
     @media screen and (max-width: 767.98px) {
-      background-image: url("../images/ice-cream@320_1x.png");
+      background-image: url('../images/ice-cream@320_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/ice-cream@320_2x.png");
+          background-image: url('../images/ice-cream@320_2x.png');
         }
       }
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      background-image: url("../images/ice-cream@768_1x.png");
+      background-image: url('../images/ice-cream@768_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/ice-cream@768_2x.png");
+          background-image: url('../images/ice-cream@768_2x.png');
         }
       }
     }
     @media screen and (min-width: 1200px) {
-      background-image: url("../images/ice-cream@1200_1x.png");
+      background-image: url('../images/ice-cream@1200_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/ice-cream@1200_2x.png");
+          background-image: url('../images/ice-cream@1200_2x.png');
         }
       }
     }
@@ -369,34 +369,34 @@
   border-radius: 24px;
 
   &::before {
-    content: "";
+    content: '';
     @media screen and (max-width: 767.98px) {
-      background-image: url("../images/coffee@320_1x.png");
+      background-image: url('../images/coffee@320_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/coffee@320_2x.png");
+          background-image: url('../images/coffee@320_2x.png');
         }
       }
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      background-image: url("../images/coffee@768_1x.png");
+      background-image: url('../images/coffee@768_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/coffee@768_2x.png");
+          background-image: url('../images/coffee@768_2x.png');
         }
       }
     }
     @media screen and (min-width: 1200px) {
-      background-image: url("../images/coffee@1200_1x.png");
+      background-image: url('../images/coffee@1200_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/coffee@1200_2x.png");
+          background-image: url('../images/coffee@1200_2x.png');
         }
       }
     }
@@ -408,34 +408,34 @@
   border-radius: 24px;
 
   &::before {
-    content: "";
+    content: '';
     @media screen and (max-width: 767.98px) {
-      background-image: url("../images/milkshakes@320_1x.png");
+      background-image: url('../images/milkshakes@320_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/milkshakes@320_2x.png");
+          background-image: url('../images/milkshakes@320_2x.png');
         }
       }
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      background-image: url("../images/milkshakes@768_1x.png");
+      background-image: url('../images/milkshakes@768_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/milkshakes@768_2x.png");
+          background-image: url('../images/milkshakes@768_2x.png');
         }
       }
     }
     @media screen and (min-width: 1200px) {
-      background-image: url("../images/milkshakes@1200_1x.png");
+      background-image: url('../images/milkshakes@1200_1x.png');
       @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         & {
-          background-image: url("../images/milkshakes@1200_2x.png");
+          background-image: url('../images/milkshakes@1200_2x.png');
         }
       }
     }
@@ -446,7 +446,7 @@
   @extend %box-text;
   position: relative;
 
-  font-family: "Titan One";
+  font-family: 'Titan One';
 
   font-weight: 400;
   font-size: 20px;
@@ -466,7 +466,7 @@
   }
 
   &::after {
-    content: "";
+    content: '';
     display: inline-blok;
     position: absolute;
 
@@ -481,12 +481,12 @@
 
     width: 26px;
     height: 6px;
-    background-image: url("../images/three_points_1x.png");
+    background-image: url('../images/three_points_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/three_points_2x.png");
+        background-image: url('../images/three_points_2x.png');
       }
     }
   }
@@ -535,6 +535,65 @@
   }
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(129, 82, 93, 0.2);
+  opacity: 1;
+  z-index: 4;
+  visibility: visible;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 10px;
+  height: 70vh;
+  overflow: auto;
+  width: calc(100% - 40px);
+  background-color: $bgc-body;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include mobile {
+    width: 300px;
+  }
+
+  @include tablet {
+    width: 450px;
+    // height: 610px;
+    overflow-y: auto;
+  }
+
+  @include desktop {
+    height: 590px;
+    width: 528px;
+  }
+}
+
 .button-product__icon {
   position: absolute;
   top: 50%;
@@ -558,12 +617,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/ice-cream@320_1x.png");
+      url('../images/ice-cream@320_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/ice-cream@320_2x.png");
+        background-image: url('../images/ice-cream@320_2x.png');
       }
     }
   }
@@ -573,12 +632,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/ice-cream@768_1x.png");
+      url('../images/ice-cream@768_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/ice-cream@768_2x.png");
+        background-image: url('../images/ice-cream@768_2x.png');
       }
     }
   }
@@ -588,12 +647,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/ice-cream@1200_1x.png");
+      url('../images/ice-cream@1200_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/ice-cream@1200_2x.png");
+        background-image: url('../images/ice-cream@1200_2x.png');
       }
     }
   }
@@ -614,12 +673,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/coffee@320_1x.png");
+      url('../images/coffee@320_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/coffee@320_2x.png");
+        background-image: url('../images/coffee@320_2x.png');
       }
     }
   }
@@ -629,12 +688,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/coffee@768_1x.png");
+      url('../images/coffee@768_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/coffee@768_2x.png");
+        background-image: url('../images/coffee@768_2x.png');
       }
     }
   }
@@ -644,12 +703,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/coffee@1200_1x.png");
+      url('../images/coffee@1200_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/coffee@1200_2x.png");
+        background-image: url('../images/coffee@1200_2x.png');
       }
     }
   }
@@ -669,12 +728,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/milkshakes@320_1x.png");
+      url('../images/milkshakes@320_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/milkshakes@320_2x.png");
+        background-image: url('../images/milkshakes@320_2x.png');
       }
     }
   }
@@ -684,12 +743,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/milkshakes@768_1x.png");
+      url('../images/milkshakes@768_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/milkshakes@768_2x.png");
+        background-image: url('../images/milkshakes@768_2x.png');
       }
     }
   }
@@ -699,12 +758,12 @@
         rgba(47, 48, 58, 0.2),
         rgba(47, 48, 58, 0.2)
       ),
-      url("../images/milkshakes@1200_1x.png");
+      url('../images/milkshakes@1200_1x.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       & {
-        background-image: url("../images/milkshakes@1200_2x.png");
+        background-image: url('../images/milkshakes@1200_2x.png');
       }
     }
   }
