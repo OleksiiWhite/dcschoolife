@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  background-image: url('../images/stone.jpg');
 }
 
 .prodacts {
@@ -505,7 +506,7 @@
   border: 0;
 
   background-color: $bgc-body;
-  color: $accent-color;
+  color: $primary-color;
 
   cursor: pointer;
   margin: 0;

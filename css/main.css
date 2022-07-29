@@ -31,11 +31,17 @@
   text-transform: uppercase;
 }
 
+.body {
+  background-image: url("../images/stone.jpg");
+  background-color: #907e82;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  background-image: url("../images/stone.jpg");
 }
 
 .prodacts {
@@ -45,7 +51,7 @@
   font-family: "Titan One";
   font-weight: 400;
   text-align: center;
-  color: #ffa5ba;
+  color: #666666;
 }
 @media screen and (max-width: 767.98px) {
   .prodacts__text {
@@ -257,13 +263,13 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-card__overlay--cream {
-  background-color: #ffa5ba;
+  background-color: #666666;
 }
 .product-card__overlay--coffee {
-  background-color: #ebbf8a;
+  background-color: #40405f;
 }
 .product-card__overlay--milkshakes {
-  background-color: #b1d285;
+  background-color: #766454;
 }
 .product-card__item:hover .product-card__overlay, .product-card__item:focus .product-card__overlay {
   transform: translateY(0);
@@ -335,7 +341,7 @@
 }
 
 .product-card__item--cream {
-  background: #ffb8ca;
+  background: #858585;
   border-radius: 24px;
 }
 .product-card__item--cream::before {
@@ -373,7 +379,7 @@
 }
 
 .product-card__item--coffee {
-  background: #f0d1a5;
+  background: #585883;
   border-radius: 24px;
 }
 .product-card__item--coffee::before {
@@ -411,7 +417,7 @@
 }
 
 .product-card__item--milkshakes {
-  background: #c2e297;
+  background: #9c9086;
   border-radius: 24px;
 }
 .product-card__item--milkshakes::before {
@@ -496,7 +502,7 @@
   border-radius: 50%;
   border: 0;
   background-color: #ffffff;
-  color: #d41443;
+  color: #000000;
   cursor: pointer;
   margin: 0;
   padding: 0;
@@ -508,15 +514,15 @@
   }
 }
 .button-product--cream:hover, .button-product--cream:focus {
-  background-color: #ffa5ba;
+  background-color: #666666;
   color: #ffffff;
 }
 .button-product--coffee:hover, .button-product--coffee:focus {
-  background-color: #ebbf8a;
+  background-color: #40405f;
   color: #ffffff;
 }
 .button-product--milkshakes:hover, .button-product--milkshakes:focus {
-  background-color: #b1d285;
+  background-color: #766454;
   color: #ffffff;
 }
 
@@ -588,7 +594,7 @@
 }
 
 .backdrop .modal--card-cream {
-  background: #ffb8ca;
+  background: #858585;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -626,7 +632,7 @@
 }
 
 .backdrop .modal--card-coffee {
-  background: #f0d1a5;
+  background: #585883;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -664,7 +670,7 @@
 }
 
 .backdrop .modal--card-milkshakes {
-  background: #c2e297;
+  background: #9c9086;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -719,16 +725,16 @@
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop .modal__close--prodact-cream:hover, .backdrop .modal__close--prodact-cream:focus {
-  border-color: #ffa5ba;
-  stroke: #ffa5ba;
+  border-color: #666666;
+  stroke: #666666;
 }
 .backdrop .modal__close--prodact-coffee:hover, .backdrop .modal__close--prodact-coffee:focus {
-  border-color: #ebbf8a;
-  stroke: #ebbf8a;
+  border-color: #40405f;
+  stroke: #40405f;
 }
 .backdrop .modal__close--prodact-milkshakes:hover, .backdrop .modal__close--prodact-milkshakes:focus {
-  border-color: #b1d285;
-  stroke: #b1d285;
+  border-color: #766454;
+  stroke: #766454;
 }
 
 .backdrop.backdrop--cream {
