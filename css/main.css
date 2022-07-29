@@ -31,7 +31,7 @@
   text-transform: uppercase;
 }
 
-.body {
+body {
   background-image: url("../images/stone.jpg");
   background-color: #907e82;
 }
@@ -41,7 +41,6 @@
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  background-image: url("../images/stone.jpg");
 }
 
 .prodacts {
