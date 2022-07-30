@@ -11,8 +11,7 @@
   &__text {
     @extend %box-text;
 
-    font-family: 'Titan One';
-    font-weight: 400;
+    font-weight: 500;
 
     text-align: center;
 
@@ -43,8 +42,7 @@
   &__title {
     @extend %box-text;
 
-    font-family: 'Titan One';
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     letter-spacing: 0.04em;
 
@@ -83,9 +81,7 @@
   }
 
   &__text {
-    font-family: 'DM Sans';
-
-    font-weight: 700;
+    font-weight: 300;
 
     text-align: center;
     letter-spacing: 0.04em;
@@ -111,9 +107,7 @@
   &__title-price {
     @extend %box-text;
 
-    font-family: 'Titan One';
-
-    font-weight: 400;
+    font-weight: 500;
 
     text-align: center;
     letter-spacing: 0.1em;
@@ -123,28 +117,33 @@
       font-size: 14px;
       line-height: 1.15;
       padding: 0px;
+
       margin-bottom: 20px;
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
       font-size: 16px;
       line-height: 1.16;
       padding: 0px;
+
       margin-bottom: 30px;
     }
     @media screen and (min-width: 1200px) {
       font-size: 18px;
       line-height: 1.18;
       padding: 0px;
+
       margin-bottom: 20px;
     }
+  }
+
+  &__title-price--modal {
+    margin-top: 35%;
   }
 
   &__item-price {
     @extend %list;
 
-    font-family: 'DM Sans';
-
-    font-weight: 700;
+    font-weight: 200;
 
     text-align: center;
     letter-spacing: 0.04em;
@@ -168,9 +167,7 @@
   &__text-price {
     @extend %box-text;
 
-    font-family: 'Titan One';
-
-    font-weight: 400;
+    font-weight: 300;
 
     text-align: center;
     letter-spacing: 0.1em;
@@ -446,9 +443,7 @@
   @extend %box-text;
   position: relative;
 
-  font-family: 'Titan One';
-
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
 
@@ -607,8 +602,8 @@
   background: $bgc-product-2;
 
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: 40%;
+  background-position: top;
   border-radius: 24px;
 
   @media screen and (max-width: 767.98px) {
@@ -659,12 +654,11 @@
 }
 
 .backdrop .modal--card-coffee {
-  // height: 60%;
   background: $bgc-product-1;
 
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: 40%;
+  background-position: top;
   border-radius: 24px;
 
   @media screen and (max-width: 767.98px) {
@@ -718,8 +712,8 @@
   background: $bgc-product-3;
 
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: 40%, 40%;
+  background-position: top;
   border-radius: 24px;
 
   @media screen and (max-width: 767.98px) {
@@ -807,13 +801,13 @@
 }
 
 .backdrop.backdrop--cream {
-  background-color: $bgc-products-bd-1;
+  background-color: $label-title-color;
 }
 .backdrop.backdrop--coffee {
-  background-color: $bgc-products-bd-2;
+  background-color: $bgc-product-1-overlay;
 }
 .backdrop.backdrop--milkshakes {
-  background-color: $bgc-products-bd-3;
+  background-color: $bgc-product-3-overlay;
 }
 .modal__icon {
   z-index: 4;
