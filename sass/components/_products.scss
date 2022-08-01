@@ -15,7 +15,7 @@
 
     text-align: center;
 
-    color: $label-title-color;
+    color: $white-color;
 
     @media screen and (max-width: 767.98px) {
       margin: 0 0 15px;
@@ -127,42 +127,6 @@
     }
   }
 
-  &__title-price {
-    @extend %box-text;
-
-    font-weight: 500;
-
-    text-align: center;
-    letter-spacing: 0.1em;
-
-    color: $white-color;
-    @media screen and (max-width: 767.98px) {
-      font-size: 14px;
-      line-height: 1.15;
-      padding: 0px;
-
-      margin-bottom: 20px;
-    }
-    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      font-size: 16px;
-      line-height: 1.16;
-      padding: 0px;
-
-      margin-bottom: 30px;
-    }
-    @media screen and (min-width: 1200px) {
-      font-size: 18px;
-      line-height: 1.18;
-      padding: 0px;
-
-      margin-bottom: 20px;
-    }
-  }
-
-  &__title-price--modal {
-    margin-top: 35%;
-  }
-
   &__item-price {
     @extend %list;
 
@@ -174,44 +138,16 @@
     color: $bgc-body;
 
     @media screen and (max-width: 767.98px) {
-      font-size: 14px;
+      font-size: 10px;
       line-height: 152%;
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 162%;
     }
     @media screen and (min-width: 1200px) {
-      font-size: 18px;
+      font-size: 14px;
       line-height: 162%;
-    }
-  }
-
-  &__text-price {
-    @extend %box-text;
-
-    font-weight: 300;
-
-    text-align: center;
-    letter-spacing: 0.1em;
-
-    margin-top: 40px;
-
-    color: $white-color;
-    @media screen and (max-width: 767.98px) {
-      font-size: 16px;
-      line-height: 1.15;
-      padding: 0px 0px 20px;
-    }
-    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      font-size: 18px;
-      line-height: 1.16;
-      padding: 0px 0px 30px;
-    }
-    @media screen and (min-width: 1200px) {
-      font-size: 20px;
-      line-height: 1.18;
-      padding: 0px 0px 20px;
     }
   }
 }
@@ -287,7 +223,7 @@
     max-width: 280px;
     min-height: 489px;
 
-    padding: 120px 40px 40px;
+    padding: 120px 15px 40px;
     margin: 140px auto 0;
   }
 
@@ -295,7 +231,7 @@
     width: 224px;
     height: 473px;
 
-    padding: 80px 32px 40px;
+    padding: 80px 17px 40px;
     margin-top: 138px;
 
     &:not(:last-child) {
@@ -307,7 +243,7 @@
     width: 368px;
     height: 535px;
 
-    padding: 115px 64px 60px;
+    padding: 115px 24px 60px;
     margin-top: 261px;
 
     &:not(:last-child) {
@@ -479,7 +415,7 @@
   padding-bottom: 23px;
 
   @media screen and (min-width: 1200px) {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.15;
   }
 
@@ -587,7 +523,7 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   padding: 10px;
-  height: 70vh;
+  height: 90vh;
   overflow: auto;
   width: calc(100% - 40px);
   background-color: $bgc-body;
@@ -607,7 +543,7 @@
   }
 
   @include desktop {
-    height: 590px;
+    // height: 590px;
     width: 528px;
   }
 }
