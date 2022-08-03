@@ -15,7 +15,7 @@
 
     text-align: center;
 
-    color: $white-color;
+    color: $bgc-btn-primary;
 
     @media screen and (max-width: 767.98px) {
       margin: 0 0 15px;
@@ -48,11 +48,9 @@
 
     margin: 0;
 
-    color: $accent-color;
+    color: $bgc-btn-primary;
 
     @media screen and (max-width: 767.98px) {
-      margin-bottom: 8px;
-
       font-size: 34px;
       line-height: 1.15;
     }
@@ -104,7 +102,7 @@
     }
   }
   &__text {
-    font-weight: 300;
+    font-weight: 500;
 
     text-align: center;
     letter-spacing: 0.04em;
@@ -237,7 +235,7 @@
     min-height: 489px;
 
     padding: 120px 15px 40px;
-    margin: 140px auto 0;
+    margin: 148px auto 0;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
@@ -416,7 +414,7 @@
   position: relative;
 
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.15;
 
   text-align: center;
@@ -455,6 +453,47 @@
       & {
         background-image: url('../images/three_points_2x.png');
       }
+    }
+  }
+  &--overlay {
+    @extend %box-text;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.15;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: $bgc-btn-primary;
+
+    margin: 0px 0px 17px;
+    padding-bottom: 23px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 28px;
+      line-height: 1.15;
+    }
+  }
+
+  &-price {
+    @extend %box-text;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: $white-color;
+
+    margin: 0px 0px 17px;
+    padding-bottom: 23px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 1.15;
     }
   }
 }
