@@ -163,6 +163,11 @@ body {
   }
 }
 .product-card__item-price {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%);
+  width: 70%;
   font-weight: 200;
   text-align: center;
   letter-spacing: 0.04em;
@@ -170,7 +175,7 @@ body {
 }
 @media screen and (max-width: 767.98px) {
   .product-card__item-price {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 152%;
   }
 }
@@ -178,11 +183,13 @@ body {
   .product-card__item-price {
     font-size: 12px;
     line-height: 162%;
+    bottom: 23px;
   }
 }
 @media screen and (min-width: 1200px) {
   .product-card__item-price {
-    font-size: 14px;
+    bottom: 15px;
+    font-size: 12.6px;
     line-height: 162%;
   }
 }
@@ -555,6 +562,7 @@ body {
 
 .backdrop .modal--card-cream {
   background: #858585;
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: top;
@@ -593,6 +601,7 @@ body {
 
 .backdrop .modal--card-coffee {
   background: #585883;
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: top;
@@ -631,6 +640,7 @@ body {
 
 .backdrop .modal--card-milkshakes {
   background: #9c9086;
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%, 40%;
   background-position: top;

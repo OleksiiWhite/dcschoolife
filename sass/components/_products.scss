@@ -130,6 +130,16 @@
   &__item-price {
     @extend %list;
 
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 30px;
+
+    transform: translate(-50%);
+
+    width: 70%;
+
     font-weight: 200;
 
     text-align: center;
@@ -138,15 +148,18 @@
     color: $bgc-body;
 
     @media screen and (max-width: 767.98px) {
-      font-size: 10px;
+      font-size: 11px;
       line-height: 152%;
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
       font-size: 12px;
       line-height: 162%;
+      bottom: 23px;
     }
     @media screen and (min-width: 1200px) {
-      font-size: 14px;
+      bottom: 15px;
+
+      font-size: 12.6px;
       line-height: 162%;
     }
   }
@@ -559,7 +572,7 @@
 
 .backdrop .modal--card-cream {
   background: $bgc-product-2;
-
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: top;
@@ -614,7 +627,7 @@
 
 .backdrop .modal--card-coffee {
   background: $bgc-product-1;
-
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: top;
@@ -669,7 +682,7 @@
 
 .backdrop .modal--card-milkshakes {
   background: $bgc-product-3;
-
+  position: relative;
   background-repeat: no-repeat;
   background-size: 40%, 40%;
   background-position: top;
