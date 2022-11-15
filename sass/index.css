@@ -796,7 +796,7 @@ body {
   position: relative;
   padding: 30px;
   margin-bottom: 16px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 @media screen and (min-width: 768px) {
   .slide__text-box {
@@ -820,9 +820,9 @@ body {
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
-  color: #000000;
+  color: #c00;
   max-width: 150px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   background-image: repeating-linear-gradient(180deg, transparent, transparent 30px, #e1e1e1 0, #e1e1e1 31px);
 }
 @media screen and (min-width: 768px) {
@@ -873,7 +873,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
-  color: #000000;
+  color: #c00;
 }
 @media screen and (min-width: 768px) {
   .slide__name {
