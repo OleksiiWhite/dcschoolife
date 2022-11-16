@@ -803,8 +803,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   .slide__text-box {
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px 20px;
   }
 }
@@ -823,16 +821,12 @@ body {
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
-  color: #907e82;
-  max-width: 150px;
+  color: #858585;
   background-color: #ffffff;
   background-image: repeating-linear-gradient(180deg, transparent, transparent 30px, #e1e1e1 0, #e1e1e1 31px);
 }
 @media screen and (min-width: 768px) {
   .slide__text {
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 514px;
     font-size: 14px;
     line-height: 2.16;
     letter-spacing: 0.04em;
@@ -841,7 +835,6 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .slide__text {
-    max-width: 822px;
     font-size: 16px;
     line-height: 186%;
   }
@@ -853,21 +846,8 @@ body {
   display: block;
   width: 54px;
   height: 40px;
-  top: -5%;
-  left: -30%;
   z-index: -9;
   background-image: url(../images/reviews/symbol.png);
-}
-@media screen and (min-width: 768px) {
-  .slide__text::before {
-    top: -10%;
-    left: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .slide__text::before {
-    left: 20px;
-  }
 }
 
 .slide__name {
@@ -876,7 +856,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
-  color: #ffffff;
+  color: #d41342;
 }
 @media screen and (min-width: 768px) {
   .slide__name {
@@ -942,7 +922,7 @@ body {
 }
 
 footer {
-  background-color: #fff5f6;
+  background-color: #2f303a;
 }
 
 @media screen and (min-width: 768px) {
@@ -1059,7 +1039,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff5f6;
+  background-color: #2f303a;
 }
 .footer_social-link .footer_icon {
   width: 32px;
@@ -1168,7 +1148,7 @@ footer {
   font-size: 14px;
   line-height: 152%;
   text-align: center;
-  color: #907e82;
+  color: #ffffff;
 }
 @media screen and (min-width: 768px) {
   .footer_watermark-text {

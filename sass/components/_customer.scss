@@ -41,8 +41,8 @@
   background-color: $bgc-body;
 
   @include tablet {
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     padding: 20px 20px;
   }
   @include desktop {
@@ -58,8 +58,8 @@
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
-  color: $secondary-color;
-  max-width: 150px;
+  color: $bgc-product-2;
+  //   max-width: 150px;
   background-color: $bgc-body;
   background-image: repeating-linear-gradient(
     180deg,
@@ -70,9 +70,9 @@
   );
 
   @include tablet {
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 514px;
+    // padding-left: 50px;
+    // padding-right: 50px;
+    // max-width: 514px;
     font-size: 14px;
     line-height: 2.16;
     letter-spacing: 0.04em;
@@ -85,7 +85,7 @@
     );
   }
   @include desktop {
-    max-width: 822px;
+    // max-width: 822px;
     font-size: 16px;
     line-height: 186%;
   }
@@ -97,18 +97,19 @@
   display: block;
   width: 54px;
   height: 40px;
-  top: -5%;
-  left: -30%;
+  //   top: 5px;
+  //   left: 10px;
+  //   left: 20px;
   z-index: -9;
   background-image: url(../images/reviews/symbol.png);
 
-  @include tablet {
-    top: -10%;
-    left: 20px;
-  }
-  @include desktop {
-    left: 20px;
-  }
+  //   @include tablet {
+  //     top: -10%;
+  //     left: 20px;
+  //   }
+  //   @include desktop {
+  //     left: 20px;
+  //   }
 }
 
 .slide__name {
@@ -117,7 +118,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 26px;
-  color: $bgc-body;
+  color: $bgc-btn-primary;
   @include tablet {
     font-size: 16px;
     line-height: 30px;
