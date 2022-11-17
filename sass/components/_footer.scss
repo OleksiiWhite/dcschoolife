@@ -116,7 +116,7 @@ footer {
 .line {
   margin-bottom: 16px;
   width: 100%;
-  border-top: 1px solid #e1e1e1;
+  border-top: 2px solid #e1e1e1;
 
   @include tablet {
     margin-bottom: 8px;
@@ -136,20 +136,21 @@ footer {
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
+  text-align: center;
+
+  color: $bgc-body;
 
   @include tablet {
     line-height: 186%;
     justify-content: space-evenly;
     flex-direction: row;
+    font-size: 12px;
   }
 
   @include desktop {
     line-height: 186%;
+    font-size: 14px;
   }
-
-  text-align: center;
-
-  color: $bgc-body;
 }
 
 .adress {

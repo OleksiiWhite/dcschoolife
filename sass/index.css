@@ -48,6 +48,103 @@ body {
   padding-right: 20px;
 }
 
+.container.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .container.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.header_text {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.1666666667;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .header_text {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.1333333333;
+    letter-spacing: 0.04em;
+  }
+}
+
+.header_main-text {
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.1470588235;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .header_main-text {
+    font-size: 34px;
+    line-height: 1.1379310345;
+    letter-spacing: 0.06em;
+  }
+}
+
+.line-header {
+  margin-top: 20px;
+  width: 100%;
+  border-top: 2px solid #e1e1e1;
+}
+@media screen and (min-width: 768px) {
+  .line-header {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .line-header {
+    margin-top: 40px;
+  }
+}
+
+.logo {
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 12px rgba(212, 20, 68, 0.5137254902);
+  transition: transform 0.2s;
+}
+.logo:hover {
+  transform: scale(1.3);
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 15px;
+    width: 70px;
+  }
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+
 .prodacts {
   padding: 60px 0;
 }
@@ -1043,7 +1140,7 @@ footer {
 .line {
   margin-bottom: 16px;
   width: 100%;
-  border-top: 1px solid #e1e1e1;
+  border-top: 2px solid #e1e1e1;
 }
 @media screen and (min-width: 768px) {
   .line {
@@ -1072,11 +1169,13 @@ footer {
     line-height: 186%;
     justify-content: space-evenly;
     flex-direction: row;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer_watermark-text {
     line-height: 186%;
+    font-size: 14px;
   }
 }
 
