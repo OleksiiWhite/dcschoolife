@@ -30,22 +30,97 @@
   <body>
     <header id="header">
       <div class="container header">
-        <div class="logo-box">  <div
-             >
-            <p class="header_text">development centr</p>
-            <p class="header_main-text">schoolife</p>
-          </div>
+        <nav class="nav-topline">
+          <!--Символ-->
+          <div class="nav-topline__smart">
+            </div>
+              <div class="logo-box">
+                <div>  <p class="header_text">development centr</p>
+            <p class="header_main-text">schoolife</p></div>
+                    
           <div> <a href="index.html"><img
-              class="logo"
+              class="logo-iam"
               src="./images/simbol.png"
               alt="DCSchooLife"
               
             /></a></div></div>
-      
+            <button
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg
+                aria-label="Переключатель мобильного меню"
+                width="40px"
+                height="40px"
+              >
+                <use
+                  class="button__icon-menu"
+                  href="./images/sprite.svg#menu"
+                ></use>
+              </svg>
+            </button>
+         
+       
 
-        <div class="line-header"></div></div>
-          
-      </div>
+ <div class="menu">
+  <ul class="site-nav">
+              <li class="site-nav__item">
+                <a
+                  href="index.html"
+                  class="site-nav__link site-nav__link--current"
+                  >Студия
+                </a>
+              </li>
+
+              <li class="site-nav__item">
+                <a href="portfolio.html" class="site-nav__link">Портфолио</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link">Контакты</a>
+              </li>
+            </ul>
+
+               <ul class="contact">
+              <li class="contact__item">
+                <a
+                  class="contact__link contact__link--post"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  aria-label="електронная почта"
+                >
+                  <svg
+                    class="contact__icon contact__icon--post"
+                    width="16px"
+                    height="12px"
+                  >
+                    <use href="./images/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                  alenikbel@ukr.net
+                </a>
+              </li>
+              <li class="contact__item">
+                <a
+                  class="contact__link contact__link--tel"
+                  href="tel:+380961111111"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  aria-label="номер телефона"
+                >
+                  <svg
+                    class="contact__icon contact__icon--tel"
+                    width="10px"
+                    height="16px"
+                  >
+                    <use href="./images/symbol-defs.svg#icon-phone"></use></svg
+                  >+38 066 766 69 63
+                </a>
+              </li>
+            </ul></div>
+        </nav>
+              <div class="line-header"></div></div>        
+                </div>
     </header>
     <main>
       <section class="prodacts" id="products">
@@ -654,14 +729,131 @@
       </div>
     </footer>
 
+<!-- mobile-menu -->
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          aria-label="Переключатель мобильного меню"
+          width="40px"
+          height="40px"
+        >
+          <use
+            class="button__icon-cross"
+            href="./images/sprite.svg#cross"
+          ></use>
+        </svg>
+      </button>
+
+      <ul class="site-nav">
+        <li class="site-nav__item">
+          <a href="index.html" class="site-nav__link site-nav__link--current"
+            >Студия
+          </a>
+        </li>
+
+        <li class="site-nav__item">
+          <a href="portfolio.html" class="site-nav__link">Портфолио</a>
+        </li>
+        <li class="site-nav__item">
+          <a href="" class="site-nav__link">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="contact">
+        <li class="contact__item">
+          <a
+            class="contact__link contact__link--post"
+            href="mailto:info@devstudio.com"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            aria-label="електронная почта"
+          >
+            <svg
+              class="contact__icon contact__icon--post"
+              width="16px"
+              height="12px"
+            >
+              <use href="./images/symbol-defs.svg#icon-email"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="contact__item">
+          <a
+            class="contact__link contact__link--tel"
+            href="tel:+380961111111"
+            target="_blank"
+            rel="noopener nofollow noreferrer"
+            aria-label="номер телефона"
+          >
+            <svg
+              class="contact__icon contact__icon--tel"
+              width="10px"
+              height="16px"
+            >
+              <use href="./images/symbol-defs.svg#icon-phone"></use></svg
+            >+38 096 111 11 11
+          </a>
+        </li>
+      </ul>
+      <ul class="social-menu">
+        <li class="social-menu__item">
+          <a
+            href=""
+            class="social-menu__link social-menu__link--curent"
+            aria-label="Компания"
+            >Instagram</a
+          >
+        </li>
+        <li class="social-menu__item">
+          <a
+            href=""
+            class="social-menu__link social-menu__link--curent"
+            aria-label="Компания"
+            >Twiter
+          </a>
+        </li>
+        <li class="social-menu__item">
+          <a
+            href=""
+            class="social-menu__link social-menu__link--curent"
+            aria-label="Компания"
+            >Facebook</a
+          >
+        </li>
+        <li class="social-menu__item">
+          <a
+            href=""
+            class="social-menu__link social-menu__link--curent"
+            aria-label="Компания"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
     ></script>
+
     <script
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
   </body>
 </html>
+
+
+ 

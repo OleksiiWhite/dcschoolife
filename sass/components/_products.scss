@@ -3,6 +3,7 @@
 
   &__text {
     @extend %box-text;
+    font-family: Titan One;
 
     font-weight: 500;
 
@@ -34,7 +35,7 @@
 
   &__title {
     @extend %box-text;
-
+    font-family: Titan One;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.04em;

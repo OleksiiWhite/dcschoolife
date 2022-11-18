@@ -1,0 +1,98 @@
+.menu {
+  @include centeredFlex();
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: 767px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.menu-toggle {
+  @include centeredFlex();
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  color: $bgc-body;
+
+  outline: none;
+  transition: color 250ms $function-products;
+}
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.button__icon-menu,
+.button__icon-cross {
+  fill: currentColor;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: $bgc-btn-primary;
+}
+
+.menu-container {
+  background: $client-color;
+
+  padding: 48px 40px;
+  text-align: left;
+
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+
+  &.is-open {
+    transform: translateX(0);
+
+    pointer-events: initial;
+  }
+
+  & .menu-toggle {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+}
+
+.social-menu {
+  @include centeredFlex($place: flex-start);
+
+  flex-wrap: wrap;
+
+  @extend %list;
+
+  &__item:not(:last-child) {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
+.social-menu__link {
+  @extend %link;
+  @include centeredFlex();
+
+  color: $bgc-btn-primary;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+
+  letter-spacing: 0.02em;
+}

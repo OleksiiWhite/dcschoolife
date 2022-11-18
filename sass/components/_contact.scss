@@ -1,0 +1,99 @@
+.contact {
+  @extend %list;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__item + &__item {
+      margin-bottom: 32px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: 84px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include centeredFlex();
+
+    margin-left: 305px;
+
+    &__item + &__item {
+      margin-left: 30px;
+    }
+  }
+}
+
+.contact__icon {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (max-width: 1199px) {
+    margin-right: 8px;
+  }
+  display: inline-block;
+  margin-right: 10px;
+  fill: currentColor;
+
+  &--tel {
+    width: 10px;
+    height: 14px;
+  }
+
+  &--post {
+    width: 14px;
+    height: 10px;
+  }
+}
+
+.contact__link {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @include centeredFlex($place: flex-start);
+
+    font-size: 12px;
+    line-height: 1.2;
+
+    &--post {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include centeredFlex();
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-size: 14px;
+    line-height: 1.17;
+  }
+
+  @extend %link;
+
+  color: $bgc-body;
+
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+
+  transition: color 250ms $function-products;
+
+  &:hover,
+  &:focus {
+    color: $bgc-btn-primary;
+  }
+  @media screen and (max-width: 767px) {
+    &--tel {
+      font-size: 34px;
+      line-height: 1.17;
+
+      color: $bgc-btn-primary;
+    }
+    &--post {
+      font-size: 24px;
+      line-height: 1.17;
+    }
+  }
+}
