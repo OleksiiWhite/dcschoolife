@@ -157,7 +157,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .contact {
-    margin-left: 84px;
+    margin-left: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -165,7 +165,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 305px;
+    margin-left: 150px;
   }
   .contact__item + .contact__item {
     margin-left: 30px;
@@ -269,7 +269,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 93px;
+    margin-left: 40px;
+  }
+  .site-nav__item:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    margin-left: 150px;
   }
   .site-nav__item:not(:first-child) {
     margin-left: 50px;

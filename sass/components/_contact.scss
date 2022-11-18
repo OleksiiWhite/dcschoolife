@@ -12,13 +12,13 @@
   }
 
   @media screen and (min-width: 768px) {
-    margin-left: 84px;
+    margin-left: 40px;
   }
 
   @media screen and (min-width: 1200px) {
     @include centeredFlex();
 
-    margin-left: 305px;
+    margin-left: 150px;
 
     &__item + &__item {
       margin-left: 30px;
