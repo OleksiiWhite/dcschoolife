@@ -39,7 +39,7 @@
 
 .site-nav__link {
   @extend %link;
-
+  // font-family: Titan One;
   display: block;
 
   color: $bgc-body;
@@ -73,7 +73,8 @@
 .site-nav__link--current {
   position: relative;
 
-  color: $bgc-btn-primary;
+  // color: $bgc-btn-primary;
+  // transition: background-color 250ms $function-products;
 
   @media screen and (min-width: 768px) {
     &::after {
@@ -85,8 +86,9 @@
 
       width: 100%;
       height: 4px;
-      background-color: $bgc-btn-primary;
+      background-color: $white-color;
       border-radius: 2px;
+      box-shadow: 4px 4px 12px #d4144483;
     }
   }
 }

@@ -312,7 +312,6 @@ body {
 
 .site-nav__link--current {
   position: relative;
-  color: #d41443;
 }
 @media screen and (min-width: 768px) {
   .site-nav__link--current::after {
@@ -323,8 +322,9 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: #d41443;
+    background-color: #ffffff;
     border-radius: 2px;
+    box-shadow: 4px 4px 12px rgba(212, 20, 68, 0.5137254902);
   }
 }
 
