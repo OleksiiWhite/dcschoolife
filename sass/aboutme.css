@@ -52,18 +52,6 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
-  .container.header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container.header {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-}
 
 .header_text {
   margin-top: 0px;
@@ -109,16 +97,6 @@ body {
   margin-top: 20px;
   width: 100%;
   border-top: 2px solid #e1e1e1;
-}
-@media screen and (min-width: 768px) {
-  .line-header {
-    margin-top: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .line-header {
-    margin-top: 40px;
-  }
 }
 
 .logo-iam {

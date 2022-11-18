@@ -2,15 +2,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  @include tablet {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+  // @include tablet {
+  //   padding-top: 30px;
+  //   padding-bottom: 30px;
+  // }
 
-  @include desktop {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+  // @include desktop {
+  //   padding-top: 40px;
+  //   padding-bottom: 40px;
+  // }
 }
 
 .header_text {
@@ -58,13 +58,13 @@
   width: 100%;
   border-top: 2px solid #e1e1e1;
 
-  @include tablet {
-    margin-top: 30px;
-  }
+  // @include tablet {
+  //   margin-top: 30px;
+  // }
 
-  @include desktop {
-    margin-top: 40px;
-  }
+  // @include desktop {
+  //   margin-top: 40px;
+  // }
 }
 
 .logo-iam {
