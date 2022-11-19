@@ -13,6 +13,31 @@
     width: 250px;
   }
 }
+.text_about {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.13;
+  color: $text-client-color;
+  text-shadow: 2px 2px 4px $primary-color;
+  @include tablet {
+    font-size: 26px;
+    line-height: 1.13;
+  }
+}
+
+.name_about {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.23;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px $primary-color;
+  @include tablet {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
 
 .aboutme-card {
   text-align: justify;
@@ -22,6 +47,7 @@
 
   text-indent: 50px;
   color: $client-color;
+  text-shadow: 2px 2px 4px $primary-color;
 
   padding-left: 30px;
   padding-right: 30px;
@@ -32,5 +58,24 @@
     text-indent: 60px;
     padding-left: 60px;
     padding-right: 60px;
+  }
+}
+.social-contact__link--aboutme.social-contact__link {
+  @extend %link;
+  @include centeredFlex();
+
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: $bgc-body;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: color 250ms $function-products,
+    background-color 250ms $function-products;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $client-color;
   }
 }
