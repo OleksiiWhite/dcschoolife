@@ -405,6 +405,26 @@ body {
   }
 }
 
+.aboutme-card {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.83;
+  text-indent: 50px;
+  color: #afb1b8;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .aboutme-card {
+    font-size: 20px;
+    line-height: 1.83;
+    text-indent: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
 footer {
   background-color: #2f303a;
 }
