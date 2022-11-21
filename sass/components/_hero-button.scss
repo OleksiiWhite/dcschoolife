@@ -1,0 +1,26 @@
+.hero__button {
+  color: $white-color;
+  background-color: $bgc-btn-primary;
+
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px $box-shadow-color-one;
+  border-radius: 4px;
+  border: 0;
+
+  transition: background-color 250ms $function-products;
+
+  &:hover,
+  &:focus {
+    background-color: $bgc-footer;
+  }
+}
