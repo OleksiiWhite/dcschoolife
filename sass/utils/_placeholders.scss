@@ -23,3 +23,10 @@
   max-width: 100%;
   height: auto;
 }
+
+%title {
+  color: $title-text-color;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}

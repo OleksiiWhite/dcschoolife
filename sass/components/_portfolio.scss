@@ -1,0 +1,42 @@
+.portfolio-nav__list {
+  @extend %list;
+
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin: -15px;
+  }
+}
+
+.portfolio-nav__item {
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 0;
+    }
+  }
+
+  &:not(:last-child) {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    &:first-child .portfolio__work {
+      padding-bottom: 56px;
+    }
+  }
+}
