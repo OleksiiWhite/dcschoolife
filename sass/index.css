@@ -544,7 +544,7 @@ body {
 
 .skill__title {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -558,8 +558,19 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .skill__title {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.17;
+  }
+}
+.skill__title.skill-info {
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .skill__title.skill-info {
+    font-size: 15px;
   }
 }
 
