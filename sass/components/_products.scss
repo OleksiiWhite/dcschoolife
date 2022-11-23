@@ -55,7 +55,7 @@
     letter-spacing: 0.04em;
 
     margin: 0;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 
     color: $bgc-btn-primary;
 
@@ -64,14 +64,14 @@
       line-height: 1.15;
     }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-      margin-bottom: 45px;
-
+      // margin-bottom: 45px;
+      padding-bottom: 50px;
       font-size: 48px;
       line-height: 1.15;
     }
     @media screen and (min-width: 1200px) {
-      margin-bottom: 50px;
-
+      // margin-bottom: 50px;
+      padding-bottom: 50px;
       font-size: 58px;
       line-height: 1.14;
 

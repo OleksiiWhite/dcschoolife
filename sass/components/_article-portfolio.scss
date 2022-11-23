@@ -13,14 +13,20 @@
 
   &__card {
     @extend %card;
+    background-color: $white-color;
+    width: 100%;
+    height: 200px;
+    background-color: $text-client-color;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      height: 400px;
+    }
+    @media screen and (min-width: 1200px) {
+      height: 300px;
+    }
   }
 
   &__work {
     padding: 20px 24px;
-
-    border-bottom: 1px solid $bgc-btn-primary;
-    border-left: 1px solid $bgc-btn-primary;
-    border-right: 1px solid $bgc-btn-primary;
 
     background-color: $white-color;
   }

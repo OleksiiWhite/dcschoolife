@@ -658,7 +658,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   margin: 0;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   color: #d41443;
 }
 @media screen and (max-width: 767.98px) {
@@ -669,14 +669,14 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .prodacts__title {
-    margin-bottom: 45px;
+    padding-bottom: 50px;
     font-size: 48px;
     line-height: 1.15;
   }
 }
 @media screen and (min-width: 1200px) {
   .prodacts__title {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 58px;
     line-height: 1.14;
     letter-spacing: 0.06em;
@@ -1334,13 +1334,21 @@ body {
   z-index: 4;
 }
 
-.portfolio-nav__list {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (max-width: 1199px) {
+  .portfolio-nav {
+    padding-bottom: 60px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
+  .portfolio-nav {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .portfolio-nav__list {
-    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -1364,13 +1372,10 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio-nav__item {
-    width: calc((100% - 60px) / 2);
-    margin: 15px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) {
-  .portfolio-nav__item:first-child .portfolio__work {
-    padding-bottom: 56px;
+    width: calc(100% - 260px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
   }
 }
 
@@ -1382,11 +1387,24 @@ body {
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
+.portfolio__card {
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  background-color: #d3d5dd;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio__card {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__card {
+    height: 300px;
+  }
+}
 .portfolio__work {
   padding: 20px 24px;
-  border-bottom: 1px solid #d41443;
-  border-left: 1px solid #d41443;
-  border-right: 1px solid #d41443;
   background-color: #ffffff;
 }
 .portfolio__exampl {
