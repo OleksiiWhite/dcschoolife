@@ -12,6 +12,7 @@
   }
 
   &__card {
+    @include centeredFlex();
     @extend %card;
     background-color: $white-color;
     width: 100%;
@@ -95,3 +96,7 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
+
+// .material-icon {
+//   @include centeredFlex();
+// }
