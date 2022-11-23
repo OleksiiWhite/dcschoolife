@@ -40,6 +40,7 @@
 .site-nav__link {
   @extend %link;
   // font-family: Titan One;
+
   display: block;
 
   color: $bgc-body;
@@ -67,6 +68,27 @@
   &:hover,
   &:focus {
     color: $bgc-btn-primary;
+    // transform: scale(1.2);
+  }
+}
+.menu-nav {
+  transition: transform 0.2s;
+  display: block;
+
+  color: $bgc-body;
+
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  @extend %link;
+  letter-spacing: 0.02em;
+  @extend %link;
+  &:hover,
+  &:focus {
+    // color: $bgc-btn-primary;
+    transform: scale(1.1);
   }
 }
 

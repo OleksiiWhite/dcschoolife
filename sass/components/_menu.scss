@@ -12,7 +12,7 @@
 
 .menu-toggle {
   @include centeredFlex();
-
+  transition: transform 0.2s;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -37,15 +37,16 @@
 .menu-toggle:hover,
 .menu-toggle:focus {
   color: $bgc-btn-primary;
+  transform: scale(1.2);
 }
 
 .menu-container {
   // margin-right: auto;
   // margin-left: auto;
-  background: $client-color;
+  background: $bgc-footer;
 
   padding: 48px 40px;
-  text-align: left;
+  text-align: center;
 
   position: fixed;
   z-index: 5;
@@ -73,7 +74,7 @@
 }
 
 .social-menu {
-  @include centeredFlex($place: flex-start);
+  @include centeredFlex();
 
   flex-wrap: wrap;
 
@@ -82,19 +83,25 @@
   &__item:not(:last-child) {
     padding-right: 10px;
     margin-right: 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    border-right: 1px solid $bgc-body;
   }
 }
 
 .social-menu__link {
   @extend %link;
   @include centeredFlex();
-
-  color: $bgc-btn-primary;
+  // text-shadow: 1px 1px 1px $bgc-btn-primary;
+  color: $bgc-body;
 
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
 
   letter-spacing: 0.02em;
+
+  transition: transform 0.2s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }

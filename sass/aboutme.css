@@ -21,7 +21,7 @@
   }
 }
 
-.social-contact__link, .adress__link, .social-contact__link--aboutme.social-contact__link, .social-menu__link, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .social-contact__link--aboutme.social-contact__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
@@ -198,12 +198,11 @@ body {
 }
 @media screen and (max-width: 767.99px) {
   .contact__link--tel {
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.17;
-    color: #d41443;
   }
   .contact__link--post {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.17;
   }
 }
@@ -278,6 +277,21 @@ body {
   color: #d41443;
 }
 
+.menu-nav {
+  transition: transform 0.2s;
+  display: block;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  letter-spacing: 0.02em;
+}
+.menu-nav:hover, .menu-nav:focus {
+  transform: scale(1.1);
+}
+
 .site-nav__link--current {
   position: relative;
 }
@@ -313,6 +327,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.2s;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -336,12 +351,13 @@ body {
 .menu-toggle:hover,
 .menu-toggle:focus {
   color: #d41443;
+  transform: scale(1.2);
 }
 
 .menu-container {
-  background: #afb1b8;
+  background: #2f303a;
   padding: 48px 40px;
-  text-align: left;
+  text-align: center;
   position: fixed;
   z-index: 5;
   top: 0;
@@ -365,24 +381,28 @@ body {
 .social-menu {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .social-menu__item:not(:last-child) {
   padding-right: 10px;
   margin-right: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  border-right: 1px solid #ffffff;
 }
 
 .social-menu__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #d41443;
+  color: #ffffff;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+  transition: transform 0.2s;
+}
+.social-menu__link:hover, .social-menu__link:focus {
+  transform: scale(1.1);
 }
 
 .fotome_img {
@@ -402,7 +422,7 @@ body {
 .text_about {
   text-align: center;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.13;
   color: #d3d5dd;
   text-shadow: 2px 2px 4px #000000;
@@ -417,7 +437,7 @@ body {
 .name_about {
   text-align: center;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 1.23;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
@@ -432,7 +452,7 @@ body {
 .aboutme-card {
   text-align: justify;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.83;
   text-indent: 50px;
   color: #afb1b8;
