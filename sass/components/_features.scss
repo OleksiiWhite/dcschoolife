@@ -1,5 +1,5 @@
 .impotent {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1199.98px) {
     // padding-bottom: 60px;
     padding-top: 60px;
   }
@@ -12,7 +12,7 @@
 .skill {
   @extend %list;
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
@@ -34,7 +34,7 @@
 }
 
 .skill__item {
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
@@ -48,7 +48,7 @@
   }
 
   &:not(:last-child) {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.98px) {
       margin-bottom: 30px;
     }
   }
@@ -64,7 +64,7 @@
   color: $bgc-body;
   text-transform: uppercase;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.98px) {
     text-align: center;
   }
 
