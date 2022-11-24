@@ -61,7 +61,7 @@
     overflow: hidden;
   }
 
-  &__text {
+  &__text.materials {
     @extend %position-absolute;
 
     width: 100%;
@@ -70,10 +70,16 @@
     line-height: 1.56;
     letter-spacing: 0.03em;
 
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 
     color: $white-color;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      font-size: 12px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
   }
 }
 
