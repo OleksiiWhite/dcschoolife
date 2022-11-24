@@ -2,22 +2,29 @@
   &__title {
     @extend %title;
 
+    color: $title-text-color;
+    text-shadow: 0px 0px 0px $primary-color;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
     text-align: left;
     letter-spacing: 0.06em;
 
     margin-bottom: 4px;
+    transition: transform 0.2s;
+    &:hover,
+    &:focus {
+      transform: scale(1.04);
+    }
   }
 
   &__card {
     @include centeredFlex();
     @extend %card;
-    background-color: $white-color;
+    // background-color: $white-color;
     width: 100%;
     height: 200px;
-    background-color: $text-client-color;
+    background-color: $materials-color;
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       height: 400px;
     }
@@ -34,13 +41,19 @@
 
   &__exampl {
     color: $primary-text-color;
-
+    text-shadow: 0px 0px 0px blacK;
     font-size: 16px;
     line-height: 1.9;
     text-align: left;
     letter-spacing: 0.03em;
 
     margin: 0;
+
+    transition: transform 0.2s;
+    &:hover,
+    &:focus {
+      transform: scale(1.04);
+    }
   }
 
   &__thumb {
@@ -51,9 +64,9 @@
   &__text {
     @extend %position-absolute;
 
-    width: 322px;
-    height: 168px;
-    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
     line-height: 1.56;
     letter-spacing: 0.03em;
 
