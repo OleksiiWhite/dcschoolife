@@ -507,6 +507,10 @@
       line-height: 1.15;
     }
   }
+  &-price.site-nav__link {
+    padding-bottom: 23px;
+    padding-top: 0px;
+  }
 }
 
 .button-product {
@@ -528,6 +532,7 @@
   margin: 0;
   padding: 0;
   transition: color 250ms linear, background-color 250ms linear;
+  // transition: transform 0.2s $function-products;
 
   @media screen and (min-width: 1200px) {
     bottom: 60px;
@@ -535,18 +540,21 @@
 
   &--cream:hover,
   &--cream:focus {
+    // transform: scale(1.05);
     background-color: $label-title-color;
     color: $bgc-body;
   }
 
   &--coffee:hover,
   &--coffee:focus {
+    // transform: scale(1.05);
     background-color: $bgc-product-1-overlay;
     color: $bgc-body;
   }
 
   &--milkshakes:hover,
   &--milkshakes:focus {
+    // transform: scale(1.05);
     background-color: $bgc-product-3-overlay;
     color: $bgc-body;
   }
