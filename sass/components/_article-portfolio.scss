@@ -23,14 +23,16 @@
     @extend %card;
     // background-color: $white-color;
     width: 100%;
-    height: 200px;
+    // height: 200px;
     background-color: $materials-color;
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-      height: 400px;
-    }
-    @media screen and (min-width: 1200px) {
-      height: 300px;
-    }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // @media screen and (min-width: 768px) and (max-width: 1199px) {
+    //   height: 400px;
+    // }
+    // @media screen and (min-width: 1200px) {
+    //   height: 300px;
+    // }
   }
 
   &__work {
@@ -130,7 +132,3 @@
       1px 4px 6px $white-color;
   }
 }
-
-// .material-icon {
-//   @include centeredFlex();
-// }
