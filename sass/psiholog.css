@@ -461,11 +461,10 @@ body {
 }
 
 .psiholog-card {
-  text-align: justify;
+  text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.83;
-  text-indent: 50px;
   color: #afb1b8;
   background-color: #444654;
   text-shadow: 2px 2px 4px #000000;

@@ -50,12 +50,12 @@
 
 .psiholog-card {
   @extend %list;
-  text-align: justify;
+  text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.83;
 
-  text-indent: 50px;
+  // text-indent: 5px;
   color: $client-color;
   background-color: $materials-color;
   text-shadow: 2px 2px 4px $primary-color;
