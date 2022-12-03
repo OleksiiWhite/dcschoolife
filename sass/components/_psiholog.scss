@@ -1,0 +1,82 @@
+.simbol_psiholog {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  border-radius: 50%;
+
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.text_psiholog {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.13;
+  color: $white-color;
+  text-shadow: 2px 2px 4px $primary-color;
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  @include tablet {
+    font-size: 26px;
+    line-height: 1.13;
+  }
+}
+
+.name_psiholog {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.23;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px $primary-color;
+  @include tablet {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &--title {
+    font-size: 24px;
+    line-height: 1.23;
+    @include tablet {
+      font-size: 40px;
+      line-height: 1.13;
+    }
+  }
+}
+
+.psiholog-card {
+  @extend %list;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.83;
+
+  text-indent: 50px;
+  color: $client-color;
+  background-color: $materials-color;
+  text-shadow: 2px 2px 4px $primary-color;
+  // box-shadow: 2px 2px 4px $client-color;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  // width: 900px;
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  @include tablet {
+    font-size: 20px;
+    line-height: 1.83;
+
+    // text-indent: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
