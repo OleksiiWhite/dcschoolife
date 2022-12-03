@@ -406,21 +406,22 @@ body {
 }
 
 .price {
-  background-color: #444654;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .color_price {
   color: #d41443;
 }
+.color_price--text {
+  color: #afb1b8;
+}
 
 .name_price {
   text-align: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.23;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
@@ -428,8 +429,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .name_price {
-    font-size: 30px;
-    line-height: 1.13;
+    font-size: 20px;
+    line-height: 1.23;
   }
 }
 .name_price:hover {
@@ -439,18 +440,19 @@ body {
   font-size: 24px;
   line-height: 1.23;
   color: #d41443;
+  margin-top: 0px;
 }
 @media screen and (min-width: 768px) {
   .name_price--title {
     font-size: 40px;
-    line-height: 1.13;
+    line-height: 1.23;
   }
 }
 
 .simbol_price {
   margin-left: auto;
   margin-right: auto;
-  width: 180px;
+  width: 120px;
   border-radius: 50%;
   transition: transform 0.2s;
 }
