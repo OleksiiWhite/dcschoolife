@@ -405,6 +405,87 @@ body {
   transform: scale(1.1);
 }
 
+.ekzcoach {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.color_ekzcoach {
+  color: #d41443;
+}
+.color_ekzcoach--text {
+  color: #afb1b8;
+}
+
+.name_ekzcoach {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+@media screen and (min-width: 768px) {
+  .name_ekzcoach {
+    font-size: 20px;
+    line-height: 1.23;
+  }
+}
+.name_ekzcoach--title {
+  font-size: 24px;
+  line-height: 1.23;
+  color: #d41443;
+  margin-top: 0px;
+  transition: transform 0.2s;
+}
+.name_ekzcoach--title:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  .name_ekzcoach--title {
+    font-size: 40px;
+    line-height: 1.23;
+  }
+}
+
+.simbol_ekzcoach {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.simbol_ekzcoach:hover {
+  transform: scale(1.1);
+}
+
+.ekzcoach-card {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.83;
+  text-indent: 50px;
+  color: #afb1b8;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: #444654;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: transform 0.2s;
+}
+.ekzcoach-card:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 768px) {
+  .ekzcoach-card {
+    font-size: 20px;
+    line-height: 1.83;
+    text-indent: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
 footer {
   background-color: #2f303a;
 }
