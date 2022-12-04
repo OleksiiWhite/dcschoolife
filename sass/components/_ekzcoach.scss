@@ -8,6 +8,12 @@
 
 .color_ekzcoach {
   color: $bgc-btn-primary;
+  &--scale {
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
   &--text {
     color: $client-color;
   }
@@ -66,6 +72,9 @@
 
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
   transition: transform 0.2s;
   &:hover {
     transform: scale(1.05);
@@ -74,8 +83,45 @@
     font-size: 20px;
     line-height: 1.83;
 
-    text-indent: 60px;
+    // text-indent: 60px;
     padding-left: 60px;
     padding-right: 60px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    margin-top: 20px;
+  }
+}
+.ekzcoach_list {
+  @extend %list;
+  text-indent: 0px;
+  padding-bottom: 15px;
+}
+.ekzcoach-books {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.83;
+
+  //   text-indent: 50px;
+  color: $white-color;
+  text-shadow: 2px 2px 4px $primary-color;
+  //   background-color: $materials-color;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 1.83;
+
+    // text-indent: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    margin-top: 20px;
   }
 }
