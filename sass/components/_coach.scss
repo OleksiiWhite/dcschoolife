@@ -1,4 +1,4 @@
-.price {
+.coach {
   //   background-color: $materials-color;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -6,14 +6,14 @@
   margin-bottom: 30px;
 }
 
-.color_price {
+.color_coach {
   color: $bgc-btn-primary;
   &--text {
     color: $client-color;
   }
 }
 
-.name_price {
+.name_coach {
   text-align: center;
   font-weight: 500;
   font-size: 14px;
@@ -24,15 +24,16 @@
     font-size: 20px;
     line-height: 1.23;
   }
-  transition: transform 0.2s;
-  &:hover {
-    transform: scale(1.05);
-  }
+
   &--title {
     font-size: 24px;
     line-height: 1.23;
     color: $bgc-btn-primary;
     margin-top: 0px;
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.05);
+    }
     @include tablet {
       font-size: 40px;
       line-height: 1.23;
@@ -40,14 +41,41 @@
   }
 }
 
-.simbol_price {
+.simbol_coach {
   margin-left: auto;
   margin-right: auto;
-  width: 120px;
+  width: 180px;
   border-radius: 50%;
 
   transition: transform 0.2s;
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+.coach-card {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.83;
+
+  text-indent: 50px;
+  color: $client-color;
+  text-shadow: 2px 2px 4px $primary-color;
+  background-color: $materials-color;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
+  @include tablet {
+    font-size: 20px;
+    line-height: 1.83;
+
+    text-indent: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
