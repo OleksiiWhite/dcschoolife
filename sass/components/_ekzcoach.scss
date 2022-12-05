@@ -8,6 +8,7 @@
 
 .color_ekzcoach {
   color: $bgc-btn-primary;
+
   &--scale {
     transition: transform 0.2s;
     &:hover {
@@ -30,7 +31,14 @@
     font-size: 20px;
     line-height: 1.23;
   }
-
+  &--book {
+    font-size: 18px;
+    line-height: 1.23;
+    @include tablet {
+      font-size: 28px;
+      line-height: 1.23;
+    }
+  }
   &--title {
     font-size: 24px;
     line-height: 1.23;
@@ -96,7 +104,9 @@
   text-indent: 0px;
   padding-bottom: 15px;
 }
+
 .ekzcoach-books {
+  display: block;
   text-align: center;
   font-weight: 500;
   font-size: 14px;
@@ -123,5 +133,14 @@
     // padding-top: 10px;
     // padding-bottom: 10px;
     margin-top: 20px;
+  }
+}
+
+.ekzcoach-audio {
+  @extend %link;
+  text-indent: 0px;
+  color: $white-color;
+  &:hover {
+    color: $bgc-btn-primary;
   }
 }

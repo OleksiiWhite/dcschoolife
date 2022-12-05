@@ -21,7 +21,7 @@
   }
 }
 
-.social-contact__link, .adress__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .ekzcoach-audio, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
@@ -438,6 +438,16 @@ body {
     line-height: 1.23;
   }
 }
+.name_ekzcoach--book {
+  font-size: 18px;
+  line-height: 1.23;
+}
+@media screen and (min-width: 768px) {
+  .name_ekzcoach--book {
+    font-size: 28px;
+    line-height: 1.23;
+  }
+}
 .name_ekzcoach--title {
   font-size: 24px;
   line-height: 1.23;
@@ -501,6 +511,7 @@ body {
 }
 
 .ekzcoach-books {
+  display: block;
   text-align: center;
   font-weight: 500;
   font-size: 14px;
@@ -521,6 +532,14 @@ body {
     padding-right: 60px;
     margin-top: 20px;
   }
+}
+
+.ekzcoach-audio {
+  text-indent: 0px;
+  color: #ffffff;
+}
+.ekzcoach-audio:hover {
+  color: #d41443;
 }
 
 footer {
