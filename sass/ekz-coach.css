@@ -542,6 +542,13 @@ body {
   color: #d41443;
 }
 
+.audio_icon {
+  transition: transform 0.2s;
+}
+.audio_icon:hover {
+  transform: scale(1.1);
+}
+
 footer {
   background-color: #2f303a;
 }
