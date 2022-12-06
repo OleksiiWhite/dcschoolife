@@ -44,7 +44,7 @@ footer {
   font-family: Titan One;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: calc(21px / 18px);
   text-transform: uppercase;
 
@@ -53,7 +53,7 @@ footer {
   @include tablet {
     margin-bottom: 12px;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 23px;
     line-height: calc(30px / 26px);
     letter-spacing: 0.04em;
   }
@@ -62,7 +62,7 @@ footer {
     margin-bottom: 12px;
 
     font-weight: 400;
-    font-size: 30px;
+    font-size: 28px;
     line-height: calc(34px / 30px);
     letter-spacing: 0.04em;
   }
