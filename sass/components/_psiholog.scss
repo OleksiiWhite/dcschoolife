@@ -14,7 +14,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.13;
-  color: $white-color;
+  color: $bgc-btn-primary;
   text-shadow: 2px 2px 4px $primary-color;
 
   @include tablet {
@@ -28,7 +28,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.23;
-  color: #ffffff;
+  color: $bgc-btn-primary;
   text-shadow: 2px 2px 4px $primary-color;
   @include tablet {
     font-size: 30px;

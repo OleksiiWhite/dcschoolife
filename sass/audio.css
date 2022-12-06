@@ -21,12 +21,12 @@
   }
 }
 
-.social-contact__link, .adress__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .text-trek-audio, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
 
-.social-contact, .adress, .social-menu, .site-nav, .contact {
+.social-contact, .adress, .audio_list, .social-menu, .site-nav, .contact {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -403,6 +403,111 @@ body {
 }
 .social-menu__link:hover, .social-menu__link:focus {
   transform: scale(1.1);
+}
+
+.text_audio {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.13;
+  color: #d41443;
+  text-shadow: 2px 2px 4px #000000;
+}
+@media screen and (min-width: 768px) {
+  .text_audio {
+    font-size: 26px;
+    line-height: 1.13;
+  }
+}
+
+.name_audio {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.23;
+  color: #d41443;
+  text-shadow: 2px 2px 4px #000000;
+  transition: transform 0.2s;
+}
+@media screen and (min-width: 768px) {
+  .name_audio {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+.name_audio:hover {
+  transform: scale(1.05);
+}
+.name_audio--title {
+  font-size: 24px;
+  line-height: 1.23;
+}
+@media screen and (min-width: 768px) {
+  .name_audio--title {
+    font-size: 40px;
+    line-height: 1.13;
+  }
+}
+
+.audio_list {
+  text-indent: 0px;
+  padding-bottom: 15px;
+}
+
+.audio-trek {
+  display: block;
+  text-align: centr;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.83;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .audio-trek {
+    font-size: 20px;
+    line-height: 1.83;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.text-trek-audio {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-indent: 0px;
+  color: #ffffff;
+}
+.text-trek-audio:hover {
+  color: #d41443;
+}
+
+.audio_icon {
+  transition: transform 0.2s;
+}
+.audio_icon:hover {
+  transform: scale(1.2);
+}
+
+.audio_name {
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .audio_name {
+    margin-left: 50px;
+  }
 }
 
 footer {

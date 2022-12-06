@@ -421,7 +421,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.13;
-  color: #ffffff;
+  color: #d41443;
   text-shadow: 2px 2px 4px #000000;
 }
 @media screen and (min-width: 768px) {
@@ -436,7 +436,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.23;
-  color: #ffffff;
+  color: #d41443;
   text-shadow: 2px 2px 4px #000000;
   transition: transform 0.2s;
 }
