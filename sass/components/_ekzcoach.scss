@@ -151,3 +151,41 @@
     transform: scale(1.1);
   }
 }
+
+.books {
+  @extend %list;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  @include tablet {
+    @include centeredFlex();
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.on_book {
+  text-align: center;
+  &:not(:last-child) {
+    margin-bottom: 40px;
+    @include tablet {
+      margin-right: 60px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.text_book {
+  width: 160px;
+
+  box-shadow: 1px 1px 5px $client-color;
+  transition: transform 0.2s;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+  @include tablet {
+    // margin-left: 15px;
+    width: 250px;
+  }
+}

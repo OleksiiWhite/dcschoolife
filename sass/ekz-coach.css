@@ -26,7 +26,7 @@
           text-decoration-line: none;
 }
 
-.social-contact, .adress, .ekzcoach_list, .social-menu, .site-nav, .contact {
+.social-contact, .adress, .books, .ekzcoach_list, .social-menu, .site-nav, .contact {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -547,6 +547,47 @@ body {
 }
 .audio_icon:hover {
   transform: scale(1.1);
+}
+
+.books {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .books {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+.on_book {
+  text-align: center;
+}
+.on_book:not(:last-child) {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .on_book:not(:last-child) {
+    margin-right: 60px;
+    margin-bottom: 0px;
+  }
+}
+
+.text_book {
+  width: 160px;
+  box-shadow: 1px 1px 5px #afb1b8;
+  transition: transform 0.2s;
+}
+.text_book:hover, .text_book:focus {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 768px) {
+  .text_book {
+    width: 250px;
+  }
 }
 
 footer {
