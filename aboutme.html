@@ -131,11 +131,34 @@
     <main>
       <section class="aboutme container">
         <div class="fotome_img">
-          <img
-            class="fotome_img"
-            src="./images/fotome-1200@2x.jpg"
-            alt="Biletskyi Oleksii"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/fotome-480@1x.jpg 1x,
+                ./images/fotome-480@2x.jpg 2x
+              "
+              media="(max-width: 767.99px)"
+            />
+            <source
+              srcset="
+                ./images/fotome-768@1x.jpg 1x,
+                ./images/fotome-768@2x.jpg 2x
+              "
+              media="(min-width: 768px) and (max-width: 1199.99px)"
+            />
+            <source
+              srcset="
+                ./images/fotome-1200@1x.jpg 1x,
+                ./images/fotome-1200@2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <img
+              class="fotome_img"
+              src="./images/fotome-1200@1x.jpg"
+              alt="Biletskyi Oleksii"
+            />
+          </picture>
         </div>
         <p class="text_about">Кандидат психологічних наук,</p>
 

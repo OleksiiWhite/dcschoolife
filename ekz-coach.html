@@ -226,17 +226,68 @@
         </div>
         <ul class="books">
           <li class="on_book">
-            <a href="./books/Лабиринты_Разума_АНБилецкий.pdf" target="_blank"
-              ><img
-                class="text_book"
-                src="./images/MindMy.jpg"
-                alt="Лабіринти Розуму"
-            /></a>
+            <a href="./books/Лабиринты_Разума_АНБилецкий.pdf" target="_blank">
+              <picture>
+                <source
+                  srcset="
+                    ./images/MindMy-480@1x.jpg 1x,
+                    ./images/MindMy-480@2x.jpg 2x
+                  "
+                  media="(max-width: 767.99px)"
+                />
+                <source
+                  srcset="
+                    ./images/MindMy-768@1x.jpg 1x,
+                    ./images/MindMy-768@2x.jpg 2x
+                  "
+                  media="(min-width: 768px) and (max-width: 1199.99px)"
+                />
+                <source
+                  srcset="
+                    ./images/MindMy-1200@1x.jpg 1x,
+                    ./images/MindMy-1200@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="text_book"
+                  src="./images/MindMy-1200@1x.jpg"
+                  alt="Лабіринти Розуму"
+                />
+              </picture>
+            </a>
           </li>
           <li class="on_book">
-            <a href="./books/Путь_Души_АНБилецкий.pdf" target="_blank"
-              ><img class="text_book" src="./images/WayMy.png" alt="Шлях Душі"
-            /></a>
+            <a href="./books/Путь_Души_АНБилецкий.pdf" target="_blank">
+              <picture>
+                <source
+                  srcset="
+                    ./images/WayMy-480@1x.jpg 1x,
+                    ./images/WayMy-480@2x.jpg 2x
+                  "
+                  media="(max-width: 767.99px)"
+                />
+                <source
+                  srcset="
+                    ./images/WayMy-768@1x.jpg 1x,
+                    ./images/WayMy-768@2x.jpg 2x
+                  "
+                  media="(min-width: 768px) and (max-width: 1199.99px)"
+                />
+                <source
+                  srcset="
+                    ./images/WayMy-1200@1x.jpg 1x,
+                    ./images/WayMy-1200@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="text_book"
+                  src="./images/WayMy-1200@1x.jpg"
+                  alt="Шлях Душі"
+                />
+              </picture>
+            </a>
           </li>
         </ul>
         <div class="ekzcoach-card">
