@@ -21,11 +21,11 @@
   }
 }
 
-.social-contact__link, .adress__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .training__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   text-decoration-line: none;
 }
 
-.social-contact, .adress, .social-menu, .site-nav, .contact {
+.social-contact, .adress, .training-list, .social-menu, .site-nav, .contact {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -404,6 +404,24 @@ body {
   transform: scale(1.1);
 }
 
+.training {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .training {
+    font-size: 18px;
+    line-height: 1.13;
+  }
+}
+.training-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer {
   background-color: #2f303a;
 }
