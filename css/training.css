@@ -21,7 +21,7 @@
   }
 }
 
-.social-contact__link, .adress__link, .training__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .trainig__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   text-decoration-line: none;
 }
 
@@ -404,7 +404,13 @@ body {
   transform: scale(1.1);
 }
 
-.training {
+.training-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-list {
   text-align: justify;
   font-weight: 500;
   font-size: 14px;
@@ -412,16 +418,12 @@ body {
   color: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  .training {
+  .training-list {
     font-size: 18px;
     line-height: 1.13;
   }
 }
-.training-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 footer {
   background-color: #2f303a;
 }

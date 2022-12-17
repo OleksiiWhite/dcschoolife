@@ -1,4 +1,11 @@
 .training {
+  &-block {
+    @include centeredFlex();
+  }
+}
+
+.training-list {
+  @extend %list;
   text-align: justify;
   font-weight: 500;
   font-size: 14px;
@@ -9,14 +16,8 @@
     font-size: 18px;
     line-height: 1.13;
   }
-  &-block {
-    @include centeredFlex();
-  }
+}
 
-  &__link {
-    @extend %link;
-  }
-  &-list {
-    @extend %list;
-  }
+.trainig__link {
+  @extend %link;
 }
