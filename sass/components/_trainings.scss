@@ -4,7 +4,7 @@
     justify-content: flex-start;    border-radius: 10px;
     margin-bottom: 5px;
     padding-top: 3px;
-    transition: transform 0.3s;
+    transition: transform 0.1s;
     
       &:hover {
         transform: scale(1.01);
@@ -29,6 +29,7 @@
     &-list {
       @extend %list;
       margin-bottom: 30px;
+      margin-top: 30px;
      
       
     }
@@ -54,3 +55,48 @@
 }
 
 
+.name_training {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px $primary-color;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 1.23;
+  }
+
+ 
+
+  &--title {
+    font-size: 24px;
+    line-height: 1.23;
+    color: $bgc-btn-primary;
+    margin-top: 0px;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    @include tablet {
+      font-size: 40px;
+      line-height: 1.23;
+    }
+  }
+}
+
+.simbol_training{
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  border-radius: 50%;
+
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
