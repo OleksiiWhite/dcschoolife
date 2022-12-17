@@ -1,0 +1,26 @@
+.since-text {
+
+    text-align: justify;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.23;
+    color: #ffffff;
+
+    @include tablet {
+        font-size: 18px;
+        line-height: 1.13;
+    }
+}
+
+.since-block {
+    @include centeredFlex();
+}
+
+.since__link {
+    @extend %link;
+
+}
+
+.since-list {
+    @extend %list
+}

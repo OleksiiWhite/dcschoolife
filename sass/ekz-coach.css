@@ -22,8 +22,7 @@
 }
 
 .social-contact__link, .adress__link, .ekzcoach-audio, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 .social-contact, .adress, .books, .ekzcoach_list, .social-menu, .site-nav, .contact {

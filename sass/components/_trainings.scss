@@ -1,23 +1,56 @@
 .training {
   &-block {
     @include centeredFlex();
+    justify-content: flex-start;    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    transition: transform 0.3s;
+    
+      &:hover {
+        transform: scale(1.01);
+      }
+    
+ 
+  &--bgcolor1{background-color: $bgctraining;
   }
-}
-
-.training-list {
-  @extend %list;
-  text-align: justify;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.23;
-  color: #ffffff;
-
-  @include tablet {
-    font-size: 18px;
-    line-height: 1.13;
+     &--bgcolor2 {
+       background-color: $bgctraining2;
+     }
   }
+    &__icon {
+      padding-left: 10px;
+      padding-bottom: 0px;
+      @include tablet {
+          padding-left: 30px;
+        }
+      }
+    
+
+    &-list {
+      @extend %list;
+      margin-bottom: 30px;
+     
+      
+    }
+        &__link {
+          @extend %link;
+    
+        }
+        &-text{text-align: justify;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.23;
+          color: #ffffff;
+          padding-left: 10px;
+          padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+          @include tablet {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.13;
+            padding-left: 20px;
+          }}
 }
 
-.trainig__link {
-  @extend %link;
-}
+
