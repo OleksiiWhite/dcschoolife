@@ -101,3 +101,18 @@
     margin-left: 50px;
   }
 }
+.simbol_audio {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  border-radius: 50%;
+
+
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+
+  }
+}
+

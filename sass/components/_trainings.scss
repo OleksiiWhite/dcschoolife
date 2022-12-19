@@ -7,7 +7,9 @@
     transition: transform 0.1s;
     
       &:hover {
-        transform: scale(1.01);
+        transform: scale(1.005);
+        box-shadow: inset 0 0 15px 8px $white-color;
+        
       }
     
  
@@ -79,6 +81,7 @@
 
     &:hover {
       transform: scale(1.05);
+      
     }
 
     @include tablet {
@@ -93,10 +96,12 @@
   margin-right: auto;
   width: 180px;
   border-radius: 50%;
+ 
 
   transition: transform 0.2s;
 
   &:hover {
     transform: scale(1.1);
+    
   }
 }
