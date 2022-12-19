@@ -504,7 +504,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.23;
-  color: #d41443;
+  color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
   padding-bottom: 20px;
   margin-left: auto;
@@ -513,6 +513,7 @@ body {
 }
 .selfdevelop--five:hover {
   transform: scale(1.05);
+  color: #d41443;
 }
 @media screen and (min-width: 768px) {
   .selfdevelop--five {
