@@ -59,7 +59,9 @@
     padding-left: 60px;
     padding-right: 60px;
   }
+ 
 }
+
 .social-contact__link--aboutme.social-contact__link {
   @extend %link;
   @include centeredFlex();

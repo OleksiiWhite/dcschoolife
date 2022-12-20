@@ -1,0 +1,104 @@
+
+
+
+.name_since {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.23;
+    color: $bgc-btn-primary;
+    text-shadow: 2px 2px 4px $primary-color;
+
+    @include tablet {
+        font-size: 22px;
+        line-height: 1.13;
+    }
+
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &--title {
+        font-size: 18px;
+        line-height: 1.23;
+
+        @include tablet {
+            font-size: 26px;
+            line-height: 1.13;
+        }
+    }
+}
+
+
+
+
+.simbol_since {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    border-radius: 50%;
+
+
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+.aboutme-card {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.83;
+
+    text-indent: 50px;
+    color: $client-color;
+    text-shadow: 2px 2px 4px $primary-color;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include tablet {
+        font-size: 20px;
+        line-height: 1.83;
+
+        text-indent: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+         &--span {
+             color: $bgc-btn-primary;
+         }
+}
+
+.since--link {
+    @extend %link;
+    display: block;
+    // text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.23;
+    color: $white-color;
+    text-shadow: 2px 2px 4px $primary-color;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+        color: $bgc-btn-primary;
+    }
+
+    @include tablet {
+        font-size: 18px;
+        line-height: 1.13;
+        padding-bottom: 40px;
+    }
+}
