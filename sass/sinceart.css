@@ -468,6 +468,9 @@ body {
 .aboutme-card--span {
   color: #d41443;
 }
+.aboutme-card--litr {
+  text-indent: 0px;
+}
 
 .since--link {
   display: block;
