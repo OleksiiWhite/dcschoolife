@@ -450,7 +450,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.83;
-  text-indent: 50px;
+  text-indent: 30px;
   color: #afb1b8;
   text-shadow: 2px 2px 4px #000000;
   padding-left: 30px;
@@ -460,7 +460,7 @@ body {
   .aboutme-card {
     font-size: 20px;
     line-height: 1.83;
-    text-indent: 60px;
+    text-indent: 50px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -470,6 +470,12 @@ body {
 }
 .aboutme-card--litr {
   text-indent: 0px;
+}
+.aboutme-card--img {
+  text-indent: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .since--link {
