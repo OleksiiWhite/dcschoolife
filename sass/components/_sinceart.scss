@@ -32,7 +32,36 @@
     }
 }
 
+.name_text {
+    // text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.23;
+    color: $text-client-color;
+    text-shadow: 2px 2px 4px $primary-color;
 
+    @include tablet {
+        font-size: 20px;
+        line-height: 1.13;
+    }
+
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    // &--title {
+    //     font-size: 16px;
+    //     line-height: 1.23;
+
+    //     @include tablet {
+    //         font-size: 28px;
+    //         line-height: 1.13;
+    //     }
+    // }
+}
 
 
 .simbol_since {

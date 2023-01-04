@@ -434,6 +434,25 @@ body {
   }
 }
 
+.name_text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  color: #d3d5dd;
+  text-shadow: 2px 2px 4px #000000;
+  transition: transform 0.2s;
+}
+@media screen and (min-width: 768px) {
+  .name_text {
+    font-size: 20px;
+    line-height: 1.13;
+  }
+}
+.name_text:hover {
+  transform: scale(1.05);
+}
+
 .simbol_since {
   margin-left: auto;
   margin-right: auto;
