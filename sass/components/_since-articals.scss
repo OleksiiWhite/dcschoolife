@@ -75,10 +75,13 @@
     line-height: 1.23;
     color: $bgc-btn-primary;
     text-shadow: 2px 2px 4px $primary-color;
-
+padding-left: 30px;
+    padding-right: 30px;
     @include tablet {
         font-size: 30px;
         line-height: 1.13;
+        padding-left: 60px;
+            padding-right: 60px;
     }
 
     transition: transform 0.2s;
@@ -102,15 +105,15 @@
 .name_text {
     text-transform: uppercase;
     text-align: center;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.23;
+    font-weight: 400;
+    font-size: 14px;
+line-height: 1.83;
     color: $text-client-color;
     text-shadow: 2px 2px 4px $primary-color;
 
     @include tablet {
-        font-size: 30px;
-        line-height: 1.13;
+        font-size: 18px;
+        line-height: 1.83;
     }
 
     transition: transform 0.2s;
@@ -120,12 +123,12 @@
     }
 
     &--title {
-        font-size: 20px;
-        line-height: 1.23;
+        font-size: 14px;
+        line-height: 1.83;
 
         @include tablet {
-            font-size: 36px;
-            line-height: 1.13;
+            font-size: 18px;
+        line-height: 1.83;
         }
     }
 }

@@ -35,15 +35,18 @@
 .name_text {
     // text-transform: uppercase;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.23;
+    line-height: 1.83;
     color: $text-client-color;
     text-shadow: 2px 2px 4px $primary-color;
-
+padding-left: 30px;
+    padding-right: 30px;
     @include tablet {
-        font-size: 20px;
-        line-height: 1.13;
+        font-size: 18px;
+    line-height: 1.83;
+        padding-left: 60px;
+            padding-right: 60px;
     }
 
     transition: transform 0.2s;

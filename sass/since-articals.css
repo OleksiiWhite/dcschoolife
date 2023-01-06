@@ -465,12 +465,16 @@ body {
   line-height: 1.23;
   color: #d41443;
   text-shadow: 2px 2px 4px #000000;
+  padding-left: 30px;
+  padding-right: 30px;
   transition: transform 0.2s;
 }
 @media screen and (min-width: 768px) {
   .name_since {
     font-size: 30px;
     line-height: 1.13;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 .name_since:hover {
@@ -490,30 +494,30 @@ body {
 .name_text {
   text-transform: uppercase;
   text-align: center;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.23;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.83;
   color: #d3d5dd;
   text-shadow: 2px 2px 4px #000000;
   transition: transform 0.2s;
 }
 @media screen and (min-width: 768px) {
   .name_text {
-    font-size: 30px;
-    line-height: 1.13;
+    font-size: 18px;
+    line-height: 1.83;
   }
 }
 .name_text:hover {
   transform: scale(1.05);
 }
 .name_text--title {
-  font-size: 20px;
-  line-height: 1.23;
+  font-size: 14px;
+  line-height: 1.83;
 }
 @media screen and (min-width: 768px) {
   .name_text--title {
-    font-size: 36px;
-    line-height: 1.13;
+    font-size: 18px;
+    line-height: 1.83;
   }
 }
 
