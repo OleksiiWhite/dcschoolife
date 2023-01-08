@@ -99,6 +99,7 @@ padding-left: 30px;
             line-height: 1.13;
         }
     }
+        
 }
     
 
@@ -131,6 +132,11 @@ line-height: 1.83;
         line-height: 1.83;
         }
     }
+         &--span {
+            font-weight: 600;
+             color: $bgc-btn-primary;
+    
+         }
 }
 
 

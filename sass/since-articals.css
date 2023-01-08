@@ -520,6 +520,10 @@ body {
     line-height: 1.83;
   }
 }
+.name_text--span {
+  font-weight: 600;
+  color: #d41443;
+}
 
 .simbol_since {
   margin-left: auto;
