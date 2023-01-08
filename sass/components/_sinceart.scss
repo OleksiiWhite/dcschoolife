@@ -146,6 +146,8 @@ padding-left: 30px;
 }
 
 .frame_blc {
+    margin-top: 10px;
+    margin-bottom: 10px;
     overflow: hidden;
     position: relative;
     padding-bottom: 56.25%;
@@ -153,7 +155,7 @@ padding-left: 30px;
     height: 0;
 }
 
-.frame_blc iframe {
+.frame_blc video {
     position: absolute;
     width: 100%;
     height: 100%;
