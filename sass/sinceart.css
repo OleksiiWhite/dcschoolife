@@ -433,6 +433,15 @@ body {
     line-height: 1.13;
   }
 }
+.name_since--video {
+  text-indent: 0;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .name_since--video {
+    margin-top: 60px;
+  }
+}
 
 .name_text {
   text-align: center;
@@ -527,8 +536,6 @@ body {
 }
 
 .frame_blc {
-  margin-top: 10px;
-  margin-bottom: 10px;
   overflow: hidden;
   position: relative;
   padding-bottom: 56.25%;
@@ -540,8 +547,21 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
-  top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 768px) {
+  .frame_blc video {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .frame_blc video {
+    width: 70%;
+    height: 70%;
+  }
 }
 
 footer {
