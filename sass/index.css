@@ -714,11 +714,6 @@ body {
   }
 }
 .product-card__item-price {
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
-  transform: translate(-50%);
-  width: 70%;
   font-weight: 200;
   text-align: center;
   letter-spacing: 0.04em;
@@ -742,6 +737,28 @@ body {
     bottom: 15px;
     font-size: 12.6px;
     line-height: 162%;
+  }
+}
+.product-card__item-price--modal {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 25%;
+  height: 75%;
+  width: 90%;
+  transform: translate(-50%);
+  overflow-y: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .product-card__item-price--modal {
+    top: 25%;
+    height: 75%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product-card__item-price--modal {
+    top: 30%;
+    height: 70%;
   }
 }
 
@@ -1115,7 +1132,6 @@ body {
   transform: translate(-50%, -50%) scale(1);
   padding: 10px;
   height: 90vh;
-  overflow: auto;
   width: calc(100% - 40px);
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1130,7 +1146,6 @@ body {
 @media screen and (min-width: 768px) {
   .modal {
     width: 450px;
-    overflow-y: auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1151,7 +1166,7 @@ body {
   background: #858585;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 }
@@ -1190,7 +1205,7 @@ body {
   background: #585883;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 }
@@ -1229,7 +1244,7 @@ body {
   background: #9c9086;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%, 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 }

@@ -129,16 +129,7 @@
 
   &__item-price {
     @extend %list;
-
-    position: absolute;
-
-    left: 50%;
-
-    bottom: 30px;
-
-    transform: translate(-50%);
-
-    width: 70%;
+    // width: 70%;
 
     font-weight: 200;
 
@@ -161,8 +152,31 @@
 
       font-size: 12.6px;
       line-height: 162%;
-    }
+    }}
+  
+  &__item-price--modal{
+    position: absolute;
+  text-align: center;
+    left: 50%;
+    top: 25%;
+    height: 75%;
+  width: 90%;
+    transform: translate(-50%);
+    overflow-y: auto;
+  
+
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  top: 25%;
+    height: 75%;
   }
+
+  @media screen and (min-width: 1200px) {
+  top: 30%;
+    height: 70%;
+  }
+
+}
 }
 
 .product-card__thumb {
@@ -586,7 +600,7 @@
   transform: translate(-50%, -50%) scale(1);
   padding: 10px;
   height: 90vh;
-  overflow: auto;
+  // overflow: overflow-y;
   width: calc(100% - 40px);
   background-color: $bgc-body;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -601,7 +615,7 @@
   @include tablet {
     width: 450px;
     // height: 610px;
-    overflow-y: auto;
+    // overflow-y: auto;
   }
 
   @include desktop {
@@ -623,7 +637,7 @@
   background: $bgc-product-2;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 
@@ -678,7 +692,7 @@
   background: $bgc-product-1;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 
@@ -733,7 +747,7 @@
   background: $bgc-product-3;
   position: relative;
   background-repeat: no-repeat;
-  background-size: 40%, 40%;
+  background-size: 30%;
   background-position: top;
   border-radius: 24px;
 
