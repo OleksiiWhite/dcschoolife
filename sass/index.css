@@ -25,7 +25,7 @@
   text-decoration-line: none;
 }
 
-.social-contact, .adress, .portfolio-nav__list, .product-card__item-price, .product-card, .skill, .social-menu, .site-nav, .contact {
+.social-contact, .adress, .portfolio-nav__list, .product-card__item-price, .product-card, .skill, .hero__buttons, .social-menu, .site-nav, .contact {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -516,6 +516,27 @@ body {
 }
 .hero__button:hover, .hero__button:focus {
   transform: scale(1.05);
+}
+@media screen and (max-width: 767.99px) {
+  .hero__button {
+    margin-bottom: 30px;
+  }
+}
+
+.hero__buttons {
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .hero__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .hero__buttons__item + .hero__buttons__item {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 1199.98px) {

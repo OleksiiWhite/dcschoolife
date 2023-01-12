@@ -442,6 +442,16 @@ body {
     margin-top: 60px;
   }
 }
+.name_since--selfdevelopment {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .name_since--selfdevelopment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
 
 .name_text {
   text-align: center;

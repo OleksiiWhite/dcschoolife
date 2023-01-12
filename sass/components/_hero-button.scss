@@ -25,4 +25,23 @@
   &:focus {
     transform: scale(1.05);
   }
+     @media screen and (max-width: 767.99px) {
+      margin-bottom: 30px;
+     }
+}
+.hero__buttons {
+  @extend %list;
+margin-bottom: 10px;
+text-align: center;
+  
+
+
+  @include tablet {
+    @include centeredFlex();
+  margin-bottom: 100px;
+  &__item+&__item {
+      margin-left: 30px;
+    }
+  }
+
 }

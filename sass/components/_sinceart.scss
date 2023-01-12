@@ -35,6 +35,13 @@
         @include tablet {
             margin-top: 60px;
         }}
+        &--selfdevelopment{
+            margin-top: 30px;
+                margin-bottom: 40px;
+            @include tablet {
+                    margin-top: 100px;
+                        margin-bottom: 100px;
+                }}
 }
 
 .name_text {
