@@ -37,11 +37,23 @@
         }}
         &--selfdevelopment{
             margin-top: 120px;
-                margin-bottom: 40px;
+               
             @include tablet {
                     margin-top: 150px;
-                        margin-bottom: 100px;
-                }}
+                       
+                }
+                       
+}
+ &--title_selfdevelopment {
+     margin-bottom: 15px;
+     margin-top: 20px;
+
+     @include tablet {
+         margin-top: 40px;
+         margin-bottom: 30px;
+
+     }
+ }
 }
 
 .name_text {
@@ -144,6 +156,7 @@ padding-left: 30px;
     padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
     transition: transform 0.2s;
 
     &:hover {

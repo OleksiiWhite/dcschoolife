@@ -238,6 +238,7 @@ body {
 .hero__buttons {
   margin-bottom: 10px;
   text-align: center;
+  margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .hero__buttons {
@@ -245,6 +246,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+    margin-top: 100px;
   }
   .hero__buttons__item + .hero__buttons__item {
     margin-left: 30px;
@@ -489,12 +491,20 @@ body {
 }
 .name_since--selfdevelopment {
   margin-top: 120px;
-  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .name_since--selfdevelopment {
     margin-top: 150px;
-    margin-bottom: 100px;
+  }
+}
+.name_since--title_selfdevelopment {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .name_since--title_selfdevelopment {
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 }
 
@@ -577,6 +587,7 @@ body {
   padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
   transition: transform 0.2s;
 }
 .since--link:hover {
