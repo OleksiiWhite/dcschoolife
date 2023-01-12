@@ -21,7 +21,7 @@
   }
 }
 
-.social-contact__link, .adress__link, .portfolio__link, .skill__link, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
+.social-contact__link, .adress__link, .portfolio__link, .skill__link, .hero__button, .social-menu__link, .menu-nav, .site-nav__link, .contact__link {
   text-decoration-line: none;
 }
 
