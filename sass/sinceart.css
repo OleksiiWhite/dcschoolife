@@ -555,6 +555,10 @@ body {
   }
 }
 
+.since-temperament {
+  margin-bottom: 0px;
+}
+
 .frame_blc {
   overflow: hidden;
   position: relative;
