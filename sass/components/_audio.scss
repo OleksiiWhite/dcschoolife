@@ -95,12 +95,20 @@
     transform: scale(1.2);
   }
 }
+
 .audio_name {
   margin-left: 30px;
   @include tablet {
     margin-left: 50px;
   }
-}
+  &--new {font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;@include tablet {
+        font-size: 16px;
+      }}
+       }
+
+
 .simbol_audio {
   margin-left: auto;
   margin-right: auto;
