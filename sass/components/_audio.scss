@@ -101,7 +101,9 @@
   @include tablet {
     margin-left: 50px;
   }
-  &--new {font-weight: 500;
+  &--new {
+    text-transform:none;
+    font-weight: 500;
     font-size: 12px;
     line-height: 1.83;
     @include tablet {

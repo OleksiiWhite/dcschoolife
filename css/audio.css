@@ -509,6 +509,7 @@ body {
   }
 }
 .audio_name--new {
+  text-transform: none;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.83;
